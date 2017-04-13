@@ -1,0 +1,597 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"S",
+				"ServeJSON\t ƒ"
+			],
+			[
+				"get",
+				"GetRecommendList\tarticle []orm.Params ƒ"
+			],
+			[
+				"New",
+				"NewOrm\torm.Ormer ƒ"
+			],
+			[
+				"pa",
+				"page\tint64 ν"
+			],
+			[
+				"ma",
+				"maps\tmap[string]interface{} ν"
+			],
+			[
+				"p",
+				"page\tint ν"
+			],
+			[
+				"o",
+				"OrderBy\torm.QuerySeter ƒ"
+			],
+			[
+				"GETi",
+				"GetInt64\tint64, error ƒ"
+			],
+			[
+				"article",
+				"GetArticleList\t_ a, _ orm.Params, count int64 ƒ"
+			],
+			[
+				"c",
+				"Ctx\t*context.Context ν"
+			],
+			[
+				"s",
+				"SetPaginator\tpaginator *pagination.Paginator ƒ"
+			],
+			[
+				"Gets",
+				"GetString\tstring ƒ"
+			],
+			[
+				"Get",
+				"GetInt\tint, error ƒ"
+			],
+			[
+				"m",
+				"maps\t[]orm.Params ν"
+			],
+			[
+				"gets",
+				"GetString\tstring ƒ"
+			],
+			[
+				"jc",
+				"jcContent\tJcContent ν"
+			],
+			[
+				"C",
+				"ContentId\tint ν"
+			],
+			[
+				"new",
+				"NewOrm\torm.Ormer ƒ"
+			],
+			[
+				"run",
+				"RunSyncdb\terror ƒ"
+			],
+			[
+				"regi",
+				"RegisterModel\t ƒ"
+			],
+			[
+				"reg",
+				"RegisterDataBase\terror ƒ"
+			],
+			[
+				"Re",
+				"RegisterDataBase\terror ƒ"
+			],
+			[
+				"f",
+				"func\tFunction"
+			],
+			[
+				"r",
+				"Router\t*beego.App ƒ"
+			],
+			[
+				"con",
+				"Controller\tstruct ʈ"
+			],
+			[
+				"im",
+				"import\timport (...) ʂ"
+			],
+			[
+				"P",
+				"Println\tn int, err error ƒ"
+			],
+			[
+				"Pre",
+				"ParseForm\terror ƒ"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "controllers/article.go",
+			"settings":
+			{
+				"buffer_size": 1025,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "package controllers"
+			}
+		},
+		{
+			"file": "models/article.go",
+			"settings":
+			{
+				"buffer_size": 1622,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models/user.go",
+			"settings":
+			{
+				"buffer_size": 1572,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "controllers/user.go",
+			"settings":
+			{
+				"buffer_size": 2885,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routers/router.go",
+			"settings":
+			{
+				"buffer_size": 739,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "conf/app.conf",
+			"settings":
+			{
+				"buffer_size": 111,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 387.0,
+		"last_filter": "pic",
+		"selected_items":
+		[
+			[
+				"pic",
+				"Package Control: Install Package"
+			],
+			[
+				"go",
+				"Go to 1self Dashboard"
+			],
+			[
+				"gosub",
+				"Plugin Development: Convert Syntax to .sublime-syntax"
+			],
+			[
+				"picp",
+				"Package Control: Install Package"
+			],
+			[
+				"pcip",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 305.0,
+		"history":
+		[
+			"cd",
+			"cd:",
+			"cd /",
+			"go build",
+			"cd",
+			"go run my",
+			"go install",
+			"go",
+			"gofmt",
+			"go fmt",
+			"go build mysqlTest.go",
+			"go",
+			"help",
+			"test",
+			"go build",
+			"package",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f1e3d39e33b79698005270310898eea76' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"go build /Users/User/go/src/test/mysqlTest.go",
+			"go build",
+			"pwd",
+			"go build",
+			"subl",
+			"go install github.com/nsf/gocode",
+			"ll",
+			"ls",
+			"pwd",
+			"go build mysqlTest.go",
+			"go build;",
+			"go build",
+			"go",
+			"cd",
+			"go",
+			"pwd",
+			"ps",
+			"go install github.com/nsf/gocode",
+			"mysqlTest",
+			"go install github.com/nsf/gocode",
+			"ll",
+			"cd :",
+			"cd",
+			"mys",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restart Sublime Text to finish installation’"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/User/go/src/apiproject/models/user.go",
+		"/Users/User/go/src/apiproject/lastupdate.tmp",
+		"/Users/User/go/src/apiproject/conf/app.conf",
+		"/Users/User/go/src/apiproject/models/article.go",
+		"/Users/User/go/src/apiproject/routers/commentsRouter_controllers.go",
+		"/Users/User/go/src/apiproject/controllers/user.go",
+		"/Users/User/go/src/apiproject/main.go",
+		"/Users/User/go/src/apiproject/routers/router.go",
+		"/Users/User/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
+		"/Users/User/Library/Application Support/Sublime Text 3/Packages/GoSublime/GoSublime.sublime-settings"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"maps",
+			"int64",
+			"u.",
+			"(u ",
+			"(u",
+			"RegisterDataBase"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"this.",
+			"(this ",
+			"(this"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "controllers/article.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								160,
+								160
+							]
+						],
+						"settings":
+						{
+							"auto_name": "package controllers",
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "models/article.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1622,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1602,
+								1602
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 143.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "models/user.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1572,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 211.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "controllers/user.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2885,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								50
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "routers/router.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 739,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								580,
+								594
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "conf/app.conf",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o:///Users/User/go/src/apiproject/models":
+	{
+		"height": 124.0
+	},
+	"output.9o:///Users/User/go/src/test":
+	{
+		"height": 346.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 279.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
