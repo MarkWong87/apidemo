@@ -47,6 +47,12 @@ type HotList struct {
 	UpdateAt  time.Time
 }
 
+type ReplyList struct {
+	ContentId    int
+	Title        string
+	LastFeedback time.Time
+}
+
 func init() {
 	orm.RegisterDataBase("default", "mysql", "devops:devops@tcp(192.168.71.117:3306)/system32?charset=utf8", 30)
 	//orm.RegisterDataBase("default", "mysql", "root:@/beego?charset=utf8", 30)
@@ -93,6 +99,16 @@ func GetHots(channelId int) (this []HotList) {
 	sql := "select jc.content_id,jc.title,jcc.views_day,jc.update_at from jc_content jc left join jc_content_count jcc on jc.content_id = jcc.content_id  "
 	sql += "where jc.channel_id=? and jc.type_id in(1,3) and jc.status=2 and jc.update_at>? order by jcc.views_day desc, jcc.content_id desc limit 10"
 	_, err := o.Raw(sql, channelId, today).QueryRows(&this)
+	if err != nil {
+		panic("数据异常")
+	}
+	return this
+}
+
+func GetReply(channelId int) (this []ReplyList) {
+	o := orm.NewOrm()
+	sql := "select * from jc_content where channel_id=? and status=2 and is_recommend=1 and type_id in(1,3) order by last_feedback desc limit 10"
+	_, err := o.Raw(sql, channelId).QueryRows(&this)
 	if err != nil {
 		panic("数据异常")
 	}

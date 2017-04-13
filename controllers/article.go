@@ -46,3 +46,13 @@ func (this *ArticleController) Hot() {
 	this.Data["json"] = models.GetHots(channelId)
 	this.ServeJSON()
 }
+
+// @Title Reply
+// @Description get all Reply
+// @Success 200 {object} models.GetReply
+// @router /reply [get]
+func (this *ArticleController) Reply() {
+	channelId, _ := this.GetInt("channelId")
+	this.Data["json"] = models.GetReply(channelId)
+	this.ServeJSON()
+}
